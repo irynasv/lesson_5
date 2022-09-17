@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;800&display=swap');
+@font-face {
+	font-family: "Arimo";
+	src: url("../fonts/Arimo.woff2") format("woff2"), url("../fonts/Arimo.woff format") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Arimo";
+	src: url("../fonts/Arimo-Italic.woff2") format("woff2"), url("../fonts/Arimo-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Arimo";
+	src: url("../fonts/Arimo-BoldItalic.woff2") format("woff2"), url("../fonts/Arimo-BoldItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Arimo";
+	src: url("../fonts/Arimo-Bold.woff2") format("woff2"), url("../fonts/Arimo-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+/* .introduction{
+	font-family: "Source Code Pro", sans-serif;
+	font-weight: 800;
+} */
+
+body{
+	font-family: Arimo, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1;
+}
+.bold{
+	font-family: Arimo, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+a.crossed{
+	text-decoration: line-through;
+	color: rgb(54, 22, 54);
+	font-family: "Arimo";
+	font-weight: 700;
+}
+h1{
+	font-size: 35px;
+	text-shadow: -1px -2px 2px rgba(189, 66, 189, 0.461);
+}
+span.bold{
+	text-shadow: -5px -2px 2px rgba(224, 30, 30, 0.532), 5px 10px 5px rgb(194, 136, 54);
+}
+.introduction p{
+	font-family: Arimo, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+.red{
+	color: red;
+}
+div{
+	margin-top: 20px;
+	padding-left: 10px;
+}
+p{
+	margin-top: 10px;
+	text-indent: 25px;
+}
+p.uppercase{
+	text-indent: 5px;
+	font-family: Source Code Pro, sans-serif;
+	font-weight: 800;
+	color: rgba(42, 6, 59, 0.932);
+}
+.introduction p{
+	text-indent: 5px;
+	margin-top: 2px;
+}
+h2{
+	font-size: 25px;
+}
+header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	width: 50%;
+	background-color: rgba(58, 58, 54, 0.167);
+}
+h1{
+	line-height: 1.4;
+	padding-left: 25px;
+}
+footer{
+	padding: 1px 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.underline{
+	text-decoration: underline;
+}
+.part-one p{
+	text-align: justify;
+}
+.part-two p{
+	text-align: right;
+}
+.part-four h2{
+	text-shadow: 5px 12px 15px rgb(19, 1, 1), 5px 10px 5px red;
+}
+ol{
+	text-transform: capitalize;
+	text-decoration: overline;
+	padding-left: 20px;
+}
+ul{
+	padding-left: 20px;
+}
+.lowercase{
+	text-transform: lowercase;
+}
+.part-four{
+	line-height: 2;
+	letter-spacing: 2px;
+	background-color: rgba(215, 185, 190, 0.493);
+}
+.nowrap{
+	white-space: nowrap;
+	font-family: Source Code Pro, sans-serif;
+	font-weight: 800;
+	word-spacing: 4px;
+	background-color: rgba(193, 236, 193, 0.493)
+}
+.part-three{
+	padding: 5%;
+}
+a.top{
+	text-transform: uppercase;
+	
+	color: rgb(54, 22, 54);
+	font-family: "Arimo";
+	font-weight: 700;
+	text-decoration: underline;
+}
+.part-one,.part-two{
+	color: rgb(9, 9, 66);
+}
+.part-one h2{
+	color: rgb(163, 58, 75);
+}
+.part-three .nowrap{
+	color: green;
+}
+.introduction > p{
+	background-color: rgba(245, 222, 179, 0.607);
+}
+.introduction + div{
+	background-color: rgba(200, 223, 67, 0.466);
+}
